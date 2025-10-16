@@ -1,0 +1,144 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.menutop {
+  background-color: #b20054;
+  height: 40px;
+}
+
+.menutop ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menutop li {
+  list-style: none;
+}
+
+.menutop li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-right: 1px solid #f1f1f1;
+}
+
+.menutop li a:hover {
+  background-color: darkblue;
+  color: lawngreen;
+  font-size: 16px;
+}
+
+.menutop li a:active {
+  color: gold;
+}
+
+.banner {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+}
+
+.detail {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.detail h2 {
+  color: #b20054;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.gopy-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 20px;
+  }
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.form label {
+    min-width: 80px;
+    font-weight: 500;
+    color: #b20054;
+}
+
+.form input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #e0c3fc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border 0.3s;
+}
+
+.form input:focus {
+    border: 1.5px solid #b20054;
+    outline: none;
+}
+
+.btn-gopy {
+    background: linear-gradient(90deg, #b20054 60%, #1949b5 100%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(80,0,54,0.12);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    margin-top: 10px;
+}
+
+.btn-gopy:hover {
+    background: linear-gradient(90deg, #1949b5 60%, #b20054 100%);
+    color: #ffd6e0;
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 4px 16px rgba(25,73,181,0.18);
+}
+
+.footer {
+  width: 100%;
+  background-color: #b20054;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+.textarea-form {
+  align-items: flex-start;
+}
+
+.textarea-form textarea {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e0c3fc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.textarea-form textarea:focus {
+  border: 1.5px solid #b20054;
+  outline: none;
+}
